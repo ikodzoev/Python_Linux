@@ -1,0 +1,15 @@
+# config.yaml
+folder_in: /home/user666/tst # Путь к папке с входными данными
+folder_out: /home/user666/out # Путь к папке с выходными данными
+folder_ext: /home/user666/folder1 # Путь к доп. внешней папке
+sub_folder: sub_folder # Путь к подпапке
+count: 3 # Кол-во файлов в процессе тестирования
+bs: 1M # Размер блока
+stat_file: /home/user666/stat.txt # Путь к файлу со статистикой.
+archive_type: 7z # Параметры ключа для создания архива.
+output_file: output.7z # Название выходного архива
+host: 0.0.0.0 # IP-адрес/хост
+user: user666 # Имя пользователя
+password: '1111' # Пароль пользователя
+local_path: /home/mi/test/p7zip.deb # Локальный путь к файлу p7zip.deb
+remote_path: /home/user666/p7zip.deb # Удаленный путь для загрузки файла p7zip.deb
